@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import "tailwindcss";
+
+html, body, #root {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important; /* លុប style flex/center របស់ Vite ចោល */
+}
+
+
+@keyframes admin-route-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes owner-route-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
